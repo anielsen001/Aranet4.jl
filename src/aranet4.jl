@@ -46,4 +46,6 @@ function read_aranet4_csv(fnames)
 
 end # read_aranet4_csv
 
+export read_aranet4_csv
+
 end # module
