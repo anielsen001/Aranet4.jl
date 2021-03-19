@@ -1,0 +1,5 @@
+#+TITLE: Aranet4 CO2 sensor parser
+#+AUTHOR: Aaron Nielsen, @anielsen001
+
+The [[https://aranet4.com/][Aranet4]] carbon dioxide sensor can log its measurements internally. Using an Android App and connecting via Bluetooth, a csv file of the logged data can be downloaded. This Julia project is a very simple parser to read those csv files into a DataFrame
+
