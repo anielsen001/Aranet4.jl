@@ -66,7 +66,7 @@ This reads the current (as of 2022-11-12 csv format).
 if fnames is a list, the files will be concatenated into a single dataframe
 and overlapping times will be cut dropped.
 """
-function read_aranet_csv(fnames)
+function read_aranet4_csv(fnames)
     """
     read a csv file or series of files produced by the Android Aranet4 app
 
